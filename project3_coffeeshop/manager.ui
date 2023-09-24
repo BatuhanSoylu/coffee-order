@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ManagerScreen</class>
+ <widget class="QWidget" name="ManagerScreen">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>506</width>
+    <height>465</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>10</y>
+     <width>431</width>
+     <height>421</height>
+    </rect>
+   </property>
+   <row>
+    <property name="text">
+     <string>Latte</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>Flat-White</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>Cappucino</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>Americano</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>Cortado</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>Red-Eye</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>Black-Eye</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>Tea</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>Total</string>
+    </property>
+   </row>
+   <column>
+    <property name="text">
+     <string>Money</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Number</string>
+    </property>
+   </column>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
